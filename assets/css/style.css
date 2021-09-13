@@ -63,9 +63,18 @@ h4 {
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    
 }
 
+/*-- Progress bar -*/
+
+.progress {
+    height: 20px;
+}
+
+.progress-bar-holder {
+    padding: 100px;
+    width: 70%;
+}
 
 /*-- Headings --*/
 
