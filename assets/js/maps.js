@@ -1,3 +1,5 @@
+const MAPS_URL = "https://maps.googleapis.com/maps/api/js?key=AIzaSyB2K3ybqabIvFM0QHbLISr0fcKra15A_9g&callback=initMap" 
+
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 3,
@@ -8,7 +10,7 @@ function initMap() {
     });
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    
+
     var locations = [
         { lat: 40.758091, lng: -73.968285 },
         { lat: 41.084045, lng: -73.874245 },
