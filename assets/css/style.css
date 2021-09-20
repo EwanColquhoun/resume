@@ -19,6 +19,14 @@
     background-color: #525252;
 }
 
+.ui-menu-color-interests {
+    background-color: rgb(245, 35, 35);
+}
+
+.ui-menu-color-github {
+    background-color: rgb(9, 9, 56);
+}
+
 .bg-color-name-title {
     background-color: #676767;
 }
